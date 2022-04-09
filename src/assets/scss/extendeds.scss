@@ -1,0 +1,13 @@
+%button-styles {
+  display: flex;
+  background-color: $main-green-color;
+  color: #ffffff;
+  border: none;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-weight: bold;
+  &:hover {
+    background-color: #3c9c6b;
+  }
+}
